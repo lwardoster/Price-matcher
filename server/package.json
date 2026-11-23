@@ -1,0 +1,14 @@
+{
+  "name": "price-matcher-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tiny price-search API for the Price Matcher app. Keeps your API key off the phone.",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.12"
+  }
+}
